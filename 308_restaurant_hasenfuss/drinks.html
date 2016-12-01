@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Appitease Restaurant</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="icon" href="images/favicon.ico">
+	<link href='https://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
+	
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link rel="stylesheet" href="stylesheet.css" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+		});
+	</script>
+			
+</head>
+<header>
+	<a href="index.html">
+	<img src="images/masthead(2).png" alt="masthead">
+	</a>
+	</a>
+</header>
+
+<div id="wrapper">
+<div class="font1">
+<nav>
+  <ul class="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a>
+        <ul>
+        <li><a href="contact.html">Contact</a></li>
+    	</ul>
+    </li>
+    <li><a href="menu.html">Menu</a>
+    </li>
+    <li><a href="drinks.html">Drinks</a>
+    </li>
+</div>
+</nav>
+
+<br>
+
+<div id="box">
+<body>
+
+<h1>Peppypolitan</h1>
+<p>Pepper vodka, peach schnapps, apple, and cranberry juice make a surprisingly spicy drink that will leave your taste buds begging for more.</p>
+
+<h1>Bermuda Black</h1>
+<p>Rum, ginger juice, lime juice, stout make for a warm and satisfying drink.</p>
+
+<h1>Strawberry Basil Sangria</h1>
+<p>Fresh strawberries, apples, and basil mixed into Chardonnay and a splash of club soda makes this drink bubbly and refreshing.</p>
+
+<h1>Girl's Night Out</h1>
+<p>Moscato, vanilla vodka, and strawberry soda make for a fun and fruity drink, perfect for you and your girlfriends.</p>
+
+<h1>The Antidote</h1>
+<p>Fresh orange juice, Pomegranate Liqueur, and Acai-Blueberry Vodka makes drink so good you'd swear it was healthy for you.</p>
+
+<h1>Rum and Coke</h1>
+<p>What else can we say? Sometimes you can't go wrong with a classic. (but if you want to switch it up, ask for cherry coke instead of regular)</p>
+
+<h1>Asian Pear Mojito</h1>
+<p>Rum, apple liqueur, pear vodka, soda water, and simple syrup.</p>
+</body>
+
+<div id="specials">
+<h1>Specials for the Month</h1>
+<h2>This months special drinks are great for the fall!</h2>
+</div>
+
+<h1>Stone Wall</h1>
+<p>A refreshing twist to the classic stone mixes rum, ginger beer, and apple cider to create the perfect fall cocktail.</p>
+
+<h1>Hard Cider Sangria</h1>
+<p>This play on a traditional sangria switches the classic white wine for hard cider, add fresh apples, and finish off with lemon juice and apple brandy.</p>
+
+<h1>Caramel Apple Martini</h1>
+<p>This twist on a classic martini will make you feel like you're a kid all over again.</p>
+
+<h1>Cranberry Margaritas</h1>
+<p>Margaritas aren't just for summertime anymore.</p>
+
+<h1>Apple Bourbon Bellini</h1>
+<p>For when you want to feel warm and fancy.</p>
+
+<h1>Pumpkin Spice White Russian</h1>
+<p>Because who said you can't drink your dessert.</p>
+</body>
+
+<div class="gallery">
+	<a rel="example_group" href="images/stonewall.jpg" title="Special Drink of the Month: Stone Wall"><img alt="" src="images/stonewall_s.jpg" /></a>
+
+	<a rel="example_group" href="images/sangria.jpg" title="Special Drink of the Month: Hard Cider Sangria"><img alt="" src="images/sangria_s.jpg" /></a>
+
+	<a rel="example_group" href="images/martini.jpg" title="Special Drink of the Month: Caramel Apple Martini"><img alt="" src="images/martini_s.jpg" /></a>
+	
+<br>	
+		
+	<a rel="example_group" href="images/cranberry.jpg" title="Special Drink of the Month: Cranberry Martini"><img  alt="" src="images/cranberry_s.jpg" /></a>
+
+	<a rel="example_group" href="images/bellini.jpg" title="Special Drink of the Month: Apple Bourbon Bellini"><img  alt="" src="images/bellini_s.jpg" /></a>
+	
+	<a rel="example_group" href="images/pumpkin.jpg" title="Special Drink of the Month: Pumpkin Spice White Russian"><img alt="" src="images/pumpkin_s.jpg" /></a>
+</div>
+</div>	
+</html>
